@@ -1,0 +1,109 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+*/
+
+.bx-1 {
+  grid-area: box1;
+  background-color: aqua;
+}
+.bx-2 {
+  grid-area: box2;
+  background-color: blueviolet;
+}
+.bx-3 {
+  grid-area: box3;
+  background-color: antiquewhite;
+}
+.bx-4 {
+  grid-area: box4;
+  background-color: yellowgreen;
+}
+.bx-5 {
+  grid-area: box5;
+  background-color: wheat;
+}
+.bx-6 {
+  grid-area: box6;
+  background-color: rosybrown;
+}
+.bx-7 {
+  grid-area: box7;
+  display: grid;
+  gap: 1em;
+}
+.s-box-1 {
+  background-color: steelblue;
+}
+.s-box-2 {
+  background-color: saddlebrown;
+}
+
+.container {
+  padding: 2em;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "box7 box1 box1 box4" 
+                      "box7 box2 box3 box4"
+                      "box7 box6 box5 box5";
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  margin-top: 20%;
+  font-size: 11px;
+  text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
